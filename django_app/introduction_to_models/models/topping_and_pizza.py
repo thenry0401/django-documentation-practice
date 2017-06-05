@@ -15,7 +15,9 @@ class Pizza(models.Model):
     toppings = models.ManyToManyField(Topping)
 
     def __str__(self):
-        return self.name
+
+        return '{} ({})'.format(self.name, ', '.join([t.name for t in self.toppings.all()]))
+
 
     class Meta:
         ordering = ('name',)
