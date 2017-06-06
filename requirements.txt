@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 appnope==0.1.0
 decorator==4.0.11
 Django==1.11.2
@@ -15,3 +16,7 @@ simplegeneric==0.8.1
 six==1.10.0
 traitlets==4.3.2
 wcwidth==0.1.7
+=======
+Django==1.11.2
+pytz==2017.2
+>>>>>>> f42fece8d911d9414f3ce10de93b893eb3fd100f
